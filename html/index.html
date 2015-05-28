@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Case</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../lib/css/bootstrap.min.css">
+   <link rel="stylesheet" href="../css/styles.css">
+  <script src="../lib/js/jquery-2.1.4.min.js"></script>
+  <script src="../lib/js/bootstrap.min.js"></script>
+  <script src="../js/layout.js"></script>
+</head>
+<body>
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">My BBS</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-map-marker"></span><span id='selectLocation'></span> <span class="caret"></span></a>
+          <ul class="dropdown-menu" id="locationDropDown">
+            <li><a href="#">芝加哥</a></li>
+            <li><a href="#">纽约</a></li>
+            <li class="disabled"><a href="#">西雅图</a></li>
+            <li class="disabled"><a href="#">旧金山</a></li>
+          </ul>
+        </li>
+       	<li class="active"><a href="#">首页<span class="badge">42</span></a></li>
+     	<li><a href="#">租房信息<span class="badge">112</span></a></li>
+        <li><a href="#">跳骚市场<span class="badge">42</span></a></li>
+        <li><a href="#">娱乐<span class="badge">22</span></a></li>
+        <li><a href="#">资讯<span class="badge">12</span></a></li>
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 登陆</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container">
+
+  <h2>My BBS</h2>
+  <p>更多信息, 期待您的关注</p>
+  <div class="row">
+    <div class="col-sm-6">
+    	<div class="panel">
+   			<div class="panel-heading myPanelHeading">
+                <div class="contentPic"><img src="../images/zufang.jpg"/></div>
+                <div class="introHeader"><h4><a href="#">租房信息（出租，求组，合租）</a></h4></div>
+             </div>
+               <div class="intro panel-body">
+               	 <ul>
+                   	<li><a href="#">BP好房照片]招一个室友--townhouse三室两厅三卫 </a></li>
+                       <li><a href="#">BP好房照片]招一个室友--townhouse三室两厅三卫 </a></li>
+                       <li><a href="#">要开学了</a></li>
+                       <li><a href="#">要开学了</a></li>
+                       <li><a href="#">要开学了</a></li>
+                  </ul>
+               </div>
+    	</div>
+    </div>
+    <div class="col-sm-6">
+    	<div class="panel">
+   			<div class="panel-heading myPanelHeading">
+                <div class="contentPic"><img src="../images/shichang.jpg"/></div>
+                <div class="introHeader"><h4><a href="#">跳骚市场（日用，教材，交通）</a></h4></div>
+             </div>
+               <div class="intro panel-body">
+               	 <ul>
+                   	<li><a href="#">BP好房照片]招一个室友--townhouse三室两厅三卫 </a></li>
+                       <li><a href="#">BP好房照片]招一个室友--townhouse三室两厅三卫 </a></li>
+                       <li><a href="#">要开学了</a></li>
+                       <li><a href="#">要开学了</a></li>
+                       <li><a href="#">要开学了</a></li>
+                  </ul>
+               </div>
+    	</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+    	<div class="panel">
+   			<div class="panel-heading myPanelHeading">
+                <div class="contentPic"><img src="../images/yule.jpg"/></div>
+                <div class="introHeader"><h4><a href="#">娱乐（活动，旅行，交友）</a></h4></div>
+             </div>
+               <div class="intro panel-body">
+               	 <ul>
+                   	<li><a href="#">BP好房照片]招一个室友--townhouse三室两厅三卫 </a></li>
+                       <li><a href="#">BP好房照片]招一个室友--townhouse三室两厅三卫 </a></li>
+                       <li><a href="#">要开学了</a></li>
+                       <li><a href="#">要开学了</a></li>
+                       <li><a href="#">要开学了</a></li>
+                  </ul>
+               </div>
+    	</div>
+    </div>
+    
+    <div class="col-sm-6">
+    	<div class="panel">
+   			<div class="panel-heading myPanelHeading">
+                <div class="contentPic"><img src="../images/zixun.jpg" /></div>
+                <div class="introHeader"><h4><a href="#">资讯（生活，学习，工作）</a></h4></div>
+             </div>
+               <div class="intro panel-body">
+               	 <ul>
+                   	<li><a href="#">BP好房照片]招一个室友--townhouse三室两厅三卫 </a></li>
+                       <li><a href="#">BP好房照片]招一个室友--townhouse三室两厅三卫 </a></li>
+                       <li><a href="#">要开学了</a></li>
+                       <li><a href="#">要开学了</a></li>
+                       <li><a href="#">要开学了</a></li>
+                  </ul>
+               </div>
+    	</div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+	<div class="ft row">
+		<div class="ftUL col-sm-6">
+		   <ul>
+	              <li>
+	                  <a href="about.html">关于我们</a>
+	        </li>
+	              <li>
+	              |
+	              </li>
+	              <li>
+	                  <a href="contact.html">联系我们</a>
+	        </li>
+	              <li>
+	              |
+	              </li>
+	              <li>
+	                  <a href="duty.html">免责声明</a>
+	        </li>
+	              <li>
+	              |
+	              </li>
+	              <li>
+	                  <a href="advice.html">意见反馈</a>
+	            </li>
+	       </ul>
+       </div>
+       <div class="copyright col-sm-6">
+           &copy; Copyright 2013 chicagochinese.com
+       </div> 
+    </div>
+</footer>
+
+
+</body>
+</html>
