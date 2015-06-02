@@ -1,3 +1,9 @@
+/***************************
+****************************
+common css
+****************************
+***************************/
+
 body {
 	background:#F3F3F3;
 	font-size: 14px;
@@ -8,47 +14,6 @@ body {
 .container {
 	background:#fff;
 }
-
-
-.contentPic{
-	float:left;	
-	margin-left:10px;
-}
-
-.myPanelHeading{
-	height:50px;
-}
-.introHeader{
-	float:left;
-	margin:10px 0px 10px 10px;
-}
-
-.contentPic img {
-	width:50px;
-	height:50px;
-}
-
-.intro ul{
-	list-style-type: none;
-	height:200px;
-	margin-top:10px;
-	margin-left:0px;
-	margin-bottom:0px;
-}
-.intro li{
-	height:38px;
-	border-bottom-width: 1px;
-	border-bottom-style: dashed;
-	border-bottom-color: #999;
-	font-size:14px;
-	line-height: 40px;
-	margin-top:1px;
-	margin-bottom:1px;
-	color:#666;
-	margin-left:-30px;
-	padding-left:0px;
-}
-
 
 footer{
 	margin: 80px auto 0px auto;
@@ -64,8 +29,11 @@ footer .ft{
 	height:auto;
 }
 
+footer .ftUL{
+	height:30px;
+}
+
 footer .ft ul{
-	padding: 0;
 	color:#996;
 	padding: 2px 0 0;
 	padding-top:8px;
@@ -81,5 +49,148 @@ footer .ft li {
 footer .ft .copyright {
 	margin-top: 10px;
 	padding-top:6px;
+}
+
+.title{
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+
+/***************************
+****************************
+index css
+****************************
+***************************/
+
+.contentPic{
+	float:left;	
+	margin-left:10px;
+}
+
+.myPanelHeading{
+	height:50px;
+}
+.introHeader{
+	float:left;
+	width:60%;
+	margin:10px 0px 10px 10px;
+}
+
+.contentPic img {
+	width:50px;
+	height:50px;
+}
+
+
+.intro ul{
+	list-style-type: none;
+	height:200px;
+	margin-top:10px;
+	margin-left:0px;
+	margin-bottom:0px;
+	padding-left:10px;
+}
+.intro li{
+	height:38px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999;
+	font-size:14px;
+	line-height: 40px;
+	margin-top:1px;
+	margin-bottom:1px;
+	color:#666;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+
+/***************************
+****************************
+category css
+****************************
+***************************/
+
+.category-mid {
+	padding-left:10px;
+}
+
+.category-filter {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999;
+	height:30px;
+}
+
+.category-filter-value {
+	float:left;
+	margin-right:20px;
+}
+
+.category-mid ul{
+	list-style-type: none;
+	margin-bottom:0px;
+	padding-left:0px;
+}
+.category-mid li{
+	height:40px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999;
+	margin-top:1px;
+	margin-bottom:1px;
+	color:#666;
+	font-size:12px;
+}
+
+.category-title{
+	width:60%;
+	height:40px;
+	float:left;
+	font-size:16px;
+	line-height: 44px;
+}
+.category-writer{
+	width:15%;
+	height:40px;
+	float:left;
+}
+.category-visit{
+	width:10%;
+	height:40px;
+	float:left;
+}
+.category-date{
+	width:15%;
+	height:40px;
+	float:left;
+	font-size:16px;
+	line-height: 44px;
+}
+
+.category-page {
+	padding-left:8px;
+}
+
+.category-writer-user{
+	padding-top:2px;
+	height:20px;
+	color:blue;
+}
+.category-writer-date {
+	height:20px;
+}
+.category-visit-reply {
+	padding-top:2px;
+	height:20px;
+	color:blue;
+}
+.category-visit-browser {
+	height:20px;
 }
 
